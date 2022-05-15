@@ -19,7 +19,7 @@ It was quite a journey adding multiple search filters but capturing it into an O
 Once we learn more, we might be able to write clear, condensed, more readable codes.  I was thinking though, we may add text search, using regex or scraping related data, format into the JS file, and access it to give more options to the users to interact with :
 
 ## Examples of Search
-### Search by Date (First)
+### Search by Date 
 ![Search by Date](Images/SearchByDate.PNG)
-### Search by Shape (Last)
-![Search by Shape](Images/SearchShape.PNG)
+### Search by other fields 
+![Search by others](Images/SearchByOthers.PNG)
