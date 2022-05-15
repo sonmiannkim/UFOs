@@ -45,9 +45,31 @@
                     <ul class="list-group bg-dark">
                         <li class="list-group-item bg-dark" >
                             <label for="date">Enter Date</label>
-                            <input id="datetime" type="text" value="1/10/2010" />
-                            <!--onclick="handleClick();" -->
-                            <button id="filter-btn" type="button" class="btn btn-dark text-white" >Filter Table</button>
+                            <input id="datetime" type="date" value="2010-01-10" min="2010-01-01" max="2010-12-31">                                                    
+                        </li>                        
+                    </ul>
+                    <ul class="list-group bg-dark">
+                        <li class="list-group-item bg-dark" >
+                            <label for="city">Enter a City</label>
+                            <input id="city" type="text" value="" />                            
+                        </li>                        
+                    </ul>
+                    <ul class="list-group bg-dark">
+                        <li class="list-group-item bg-dark" >
+                            <label for="state">Enter a State</label>
+                            <input id="state" type="text" value="" />                             
+                        </li>                        
+                    </ul>
+                    <ul class="list-group bg-dark">
+                        <li class="list-group-item bg-dark" >
+                            <label for="country">Enter A Country</label>
+                            <input id="country" type="text" value="" />                       
+                        </li>                        
+                    </ul>
+                    <ul class="list-group bg-dark">
+                        <li class="list-group-item bg-dark" >
+                            <label for="shape">Enter A Shape</label>
+                            <input id="shape" type="text" value="" />                          
                         </li>                        
                     </ul>
                 </form>
@@ -75,6 +97,7 @@
     <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
     <script src="static/js/data.js"></script>
     <script src="static/js/app.js"></script>
+    <script>getMinDate();</script>
 </body>
 
 </html>
